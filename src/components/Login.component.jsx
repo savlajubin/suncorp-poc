@@ -27,44 +27,46 @@ class Login extends Component {
   }
 
   handleChange(e) {
-      this.setState({
-        ...this.state,
-        [e.target.name]: e.target.value
-      });
-      console.log("input box login", e.target.value, e.target.name)
+    this.setState({
+      ...this.state,
+      [e.target.name]: e.target.value
+    });
+    console.log("input box login", e.target.value, e.target.name)
     return;
   }
 
   render() {
     return (
-      <div className="viewport">
-        <div className="col-md-6 offset-md-3 border align-div-center">
-          <label htmlFor="Sign In" className="font32">
-            Login
-          </label>
-          <form>
-            <div className="form-group">
-              <Inputbox
-                labelText="User Name"
-                placeHolderText="Enter user name"
-                type="text"
-                name="username"
-                onChange={this.handleChange}
-              />
-            </div>
-            <div className="form-group">
-              <Inputbox
-                labelText="Password"
-                placeHolderText="Enter password"
-                type="password"
-                name="password"
-                onChange={this.handleChange}
-              />
-            </div>
-            <div className="d-flex justify-content-center">
-              <Button text="Submit" className="btn btn-primary" onClick={() => {this.props.login(this.state)}} />
-            </div>
-          </form>
+      <div className="container">
+        <div className="wrapper">
+          <div className="col-md-6 offset-md-3 border align-div-center">
+            <h2 htmlFor="Sign In">
+              Login
+          </h2>
+            <form>
+              <div className="form-group">
+                <Inputbox
+                  labelText="User Name"
+                  placeHolderText="Enter user name"
+                  type="text"
+                  name="username"
+                  onChange={this.handleChange}
+                />
+              </div>
+              <div className="form-group">
+                <Inputbox
+                  labelText="Password"
+                  placeHolderText="Enter password"
+                  type="password"
+                  name="password"
+                  onChange={this.handleChange}
+                />
+              </div>
+              <div className="d-flex justify-content-center">
+                <Button text="Submit" className="btn btn-primary" onClick={() => { this.props.login(this.state) }} />
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     );

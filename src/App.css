@@ -33,11 +33,14 @@
 
 .navbar, .footer {
   background: hsl(0, 0%, 79%);
-  color: #fff;
 }
 .navbar-nav { 
   flex-direction: row;
+  width: 100%;
 }
 .logo-link {
   width: 200px;
+}
+.logo-nav {
+  margin-right: auto;
 }

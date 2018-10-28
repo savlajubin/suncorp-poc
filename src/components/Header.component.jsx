@@ -29,15 +29,15 @@ class Header extends React.Component {
             <Navbar>
                 <Container fluid>
                     <Nav navbar>
-                        <NavItem>
+                        <NavItem className="logo-nav align-self-center">
                             <Link to="/" className="nav-link logo-link">
                                 <img src={logo} alt="Suncorp logo" />
                             </Link>
                         </NavItem>
-                        <NavItem className={(this.props.loggedin.loggedin)?"show":"hide"}>
+                        <NavItem className={(this.props.loggedin.loggedin)?"show align-self-center":"hide align-self-center"}>
                             <Logout />
                         </NavItem>
-                        <NavItem>
+                        <NavItem className="align-self-center">
                             <Timer />
                         </NavItem>
                     </Nav>
