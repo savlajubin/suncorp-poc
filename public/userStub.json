@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "username": "user1",
+    "password": "password1",
+    "name": "Leanne Graham",
+    "age": 35,
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "product": [
+      {
+        "productId": 1,
+        "productCode": "Product1 - User 1",
+        "productNo": "PU1",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man1",
+        "imgUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "productId": 2,
+        "productCode": "Product2 - User 1",
+        "productNo": "PU2",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man2",
+        "imgUrl": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "username": "user2",
+    "password": "password2",
+    "name": "Ervin Howell",
+    "age": 45,
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "product": [
+      {
+        "productId": 1,
+        "productCode": "Product1 - User 2",
+        "productNo": "PU1",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man1",
+        "imgUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "productId": 2,
+        "productCode": "Product2 - User 2",
+        "productNo": "PU2",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man2U2",
+        "imgUrl": "https://via.placeholder.com/150"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "username": "user3",
+    "password": "password3",
+    "name": "Clementine Bauch",
+    "age": 55,
+    "address": {
+      "street": "Kulas Light3",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874"
+    },
+    "phone": "9874562656",
+    "product": [
+      {
+        "productId": 1,
+        "productCode": "Product1 - User 3",
+        "productNo": "PU1",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man1U3",
+        "imgUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "productId": 2,
+        "productCode": "Product2 - User 3",
+        "productNo": "PU2",
+        "expiryDate": "10/10/2018",
+        "manufacturer": "Man2U3",
+        "imgUrl": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+]

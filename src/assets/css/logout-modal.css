@@ -1,0 +1,27 @@
+.poc-modal-layover {
+    background: rgba(0,0,0,0.75);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+}
+
+.poc-modal-body {
+    background: #fff;
+    display: block;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    width: 50%;
+}
+
+.poc-modal-layover h4 {
+    color: #333;
+}
+
+.hide {
+    display: none !important;
+}
